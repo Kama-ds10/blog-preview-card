@@ -6,55 +6,81 @@
 
 body {
   background-color: hsl(47, 88%, 63%);
-  line-height: 1.1;
   font-weight: 600;
-  /* color: hsl(0, 0%, 42%); */
 }
+
 /* contain settings */
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  margin-top: 30px;
 }
 
 .card {
   background-color: hsl(0, 0%, 100%);
-}
-
-.card-img {
-  max-width: 40%;
+  width: 374px;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 8px 8px 0 hsl(0, 0%, 7%);
 }
 
 img {
   display: block;
   max-width: 100%;
 }
-/* button */
+
+/* button  creation*/
 .card-btn {
   color: hsl(0, 0%, 7%);
   font-weight: 800;
-  padding: 8px 8px;
-  border-radius: 4px;
+  padding: 6px 10px;
+  border-radius: 3px;
   background: hsl(47, 88%, 63%);
+  margin-top: 16px;
 }
 
 /* text designs */
 .pub-date {
-  font-size: 15px;
+  font-size: 16px;
   color: hsl(0, 0%, 7%);
-  color: hsl(0, 0%, 42%);
+  margin-top: 16px;
 }
 
 .blog-head {
   color: hsl(0, 0%, 7%);
   font-weight: 800;
   font-size: 20px;
+  margin-top: 16px;
 }
 
+.blog-post {
+  margin-top: 16px;
+  font-size: 16px;
+  color: hsl(0, 0%, 42%);
+  line-height: 1.8;
+}
+
+/* layout desire */
+.user-name {
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.user-data {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.user-image {
+  width: 54px;
+}
+/* footer design */
 .attribution {
-  font-size: 11px;
+  font-size: 20px;
   text-align: center;
+  margin-top: 16px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
