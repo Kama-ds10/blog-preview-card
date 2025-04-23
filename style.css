@@ -17,6 +17,7 @@ body {
 }
 
 .card {
+  /* display: flex; */
   background-color: hsl(0, 0%, 100%);
   width: 374px;
   padding: 24px;
@@ -34,7 +35,7 @@ img {
   color: hsl(0, 0%, 7%);
   font-weight: 800;
   padding: 6px 10px;
-  border-radius: 3px;
+  border-radius: 6px;
   background: hsl(47, 88%, 63%);
   margin-top: 16px;
 }
